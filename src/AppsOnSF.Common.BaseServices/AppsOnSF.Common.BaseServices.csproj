@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <Authors>AppsOnSF</Authors>
-    <Company>Microsoft</Company>
+    <Company>AppsOnSF</Company>
     <Product>AppsOnSF.Common</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.10</Version>
-    <PackageReleaseNotes>upgraded SF nuget to 3.3.638</PackageReleaseNotes>
+    <Version>1.0.11</Version>
+    <PackageReleaseNotes>upgraded SF nuget to 3.3.654</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
