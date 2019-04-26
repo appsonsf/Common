@@ -6,7 +6,7 @@ namespace AppsOnSF.Common.BaseServices
 {
     public static class Constants
     {
-        public const string SimpleKeyValueServiceUri = "fabric:/CommonSfApp/SimpleKeyValueService";
-        public const string DataProtectionServiceUri = "fabric:/CommonSfApp/DataProtectionService";
+        public const string SimpleKeyValueServiceUri = "fabric:/Common/SimpleKeyValueService";
+        public const string DataProtectionServiceUri = "fabric:/Common/DataProtectionService";
     }
 }

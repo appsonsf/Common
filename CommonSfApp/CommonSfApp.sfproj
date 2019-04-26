@@ -20,8 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ApplicationPackageRoot\ApplicationManifest.xml" />
-    <None Include="ApplicationParameters\PROD.xml" />
-    <None Include="ApplicationParameters\QA.xml" />
     <None Include="ApplicationParameters\Local.1Node.xml" />
     <None Include="ApplicationParameters\Local.5Node.xml" />
     <None Include="PublishProfiles\PROD.xml" />
@@ -36,6 +34,7 @@
     <ProjectReference Include="..\SimpleKeyValueService\SimpleKeyValueService.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ApplicationParameters\Cloud.xml" />
     <Content Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
