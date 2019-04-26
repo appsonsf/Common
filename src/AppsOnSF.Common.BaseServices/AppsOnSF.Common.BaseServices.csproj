@@ -6,12 +6,12 @@
     <Company>AppsOnSF</Company>
     <Product>AppsOnSF.Common</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.11</Version>
-    <PackageReleaseNotes>upgraded SF nuget to 3.3.654</PackageReleaseNotes>
+    <Version>1.0.12</Version>
+    <PackageReleaseNotes>changed app name</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\AppsOnSF.Common.BaseServices.xml</DocumentationFile>
+    <DocumentationFile>bin\AppsOnSF.Common.BaseServices.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
