@@ -3,7 +3,6 @@
   <Parameters>
     <Parameter Name="DataProtectionService_MinReplicaSetSize" Value="2" />
     <Parameter Name="DataProtectionService_TargetReplicaSetSize" Value="3" />
-    <Parameter Name="CommonTestWeb_InstanceCount" Value="1" />
     <Parameter Name="SimpleKeyValueService_MinReplicaSetSize" Value="2" />
     <Parameter Name="SimpleKeyValueService_TargetReplicaSetSize" Value="3" />
   </Parameters>

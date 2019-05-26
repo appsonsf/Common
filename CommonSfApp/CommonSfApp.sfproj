@@ -22,20 +22,19 @@
     <None Include="ApplicationPackageRoot\ApplicationManifest.xml" />
     <None Include="ApplicationParameters\Local.1Node.xml" />
     <None Include="ApplicationParameters\Local.5Node.xml" />
-    <None Include="PublishProfiles\PROD.xml" />
-    <None Include="PublishProfiles\QA.xml" />
     <None Include="PublishProfiles\Local.1Node.xml" />
     <None Include="PublishProfiles\Local.5Node.xml" />
     <None Include="Scripts\Deploy-FabricApplication.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CommonTestWeb\CommonTestWeb.csproj" />
-    <ProjectReference Include="..\DataProtectionService\DataProtectionService.csproj" />
-    <ProjectReference Include="..\SimpleKeyValueService\SimpleKeyValueService.csproj" />
+    <ProjectReference Include="..\src\CommonTestWeb\CommonTestWeb.csproj" />
+    <ProjectReference Include="..\src\\DataProtectionService\DataProtectionService.csproj" />
+    <ProjectReference Include="..\src\SimpleKeyValueService\SimpleKeyValueService.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationParameters\Cloud.xml" />
     <Content Include="packages.config" />
+    <Content Include="PublishProfiles\Cloud.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="CommonType" ApplicationTypeVersion="1.0.6" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
-    <Parameter Name="DataProtectionService_MinReplicaSetSize" DefaultValue="2" />
-    <Parameter Name="DataProtectionService_TargetReplicaSetSize" DefaultValue="3" />
-    <Parameter Name="CommonTestWeb_InstanceCount" DefaultValue="-1" />
-    <Parameter Name="SimpleKeyValueService_MinReplicaSetSize" DefaultValue="2" />
-    <Parameter Name="SimpleKeyValueService_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="DataProtectionService_MinReplicaSetSize" DefaultValue="1" />
+    <Parameter Name="DataProtectionService_TargetReplicaSetSize" DefaultValue="1" />
+    <Parameter Name="CommonTestWeb_InstanceCount" DefaultValue="1" />
+    <Parameter Name="SimpleKeyValueService_MinReplicaSetSize" DefaultValue="1" />
+    <Parameter Name="SimpleKeyValueService_TargetReplicaSetSize" DefaultValue="1" />
     <Parameter Name="Diagnostics_EventSourceLevel" DefaultValue="Informational" />
     <Parameter Name="Diagnostics_SerilogEventLevel" DefaultValue="Information" />
     <Parameter Name="Diagnostics_ElasticsearchHost" DefaultValue="http://127.0.0.1:9200" />

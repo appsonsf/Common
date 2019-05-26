@@ -3,11 +3,8 @@
   <Parameters>
     <Parameter Name="DataProtectionService_MinReplicaSetSize" Value="2" />
     <Parameter Name="DataProtectionService_TargetReplicaSetSize" Value="3" />
-    <Parameter Name="CommonTestWeb_InstanceCount" Value="-1" />
     <Parameter Name="SimpleKeyValueService_MinReplicaSetSize" Value="2" />
     <Parameter Name="SimpleKeyValueService_TargetReplicaSetSize" Value="3" />
-    <Parameter Name="Diagnostics_EventSourceLevel" Value="Informational" />
-    <Parameter Name="Diagnostics_SerilogEventLevel" Value="Information" />
     <Parameter Name="Diagnostics_ElasticsearchHost" Value="http://10.17.0.1:9200" />
   </Parameters>
 </Application>
